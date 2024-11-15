@@ -21,11 +21,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #61DAFB;
+  text-shadow: 0 0 5px #fbf861;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fbf861;
+  text-shadow: 0 0 5px #000000;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +38,28 @@
     transform: rotate(360deg);
   }
 }
+
+.yash{
+  color: #ffffff;
+  text-shadow: 2px 2px 5px blue;
+  font-weight: 600;
+  font-size: 50px;
+  animation: blinking 5s infinite;
+}
+
+@keyframes blinking {
+  from{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px blue;
+    font-weight: 600;
+    font-size: 50px;
+    
+  }
+  to{
+    color: rgb(99, 245, 221);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 50px;
+  }
+}
+
