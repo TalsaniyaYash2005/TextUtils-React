@@ -74,12 +74,12 @@ export default function TextForm(props) {
       <div className="mb-3">
         <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor: props.mode==='light'?'white':'gray', color: props.mode==='light'?'#042743':'white'}} id="mybox" rows="5"></textarea>
       </div>
-      <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
-      <button className="btn btn-primary mx-1" onClick={handleLoClick}>Convert to Lowercase</button>
-      <button className="btn btn-primary mx-1" onClick={handleRevStrClick}>Reverse Text</button>
-      <button className="btn btn-primary mx-1" onClick={handleClearTextClick}>Clear Text</button>
-      <button className="btn btn-primary mx-1" onClick={handleCopyTextClick}>Copy Text</button>
-      <button className="btn btn-primary mx-1" onClick={RemoveExtraSpaces}>Remove Extra Spaces</button>
+      <button className="btn btn-primary m-1" onClick={handleUpClick}>Convert to Uppercase</button>
+      <button className="btn btn-primary m-1" onClick={handleLoClick}>Convert to Lowercase</button>
+      <button className="btn btn-primary m-1" onClick={handleRevStrClick}>Reverse Text</button>
+      <button className="btn btn-primary m-1" onClick={handleClearTextClick}>Clear Text</button>
+      <button className="btn btn-primary m-1" onClick={handleCopyTextClick}>Copy Text</button>
+      <button className="btn btn-primary m-1" onClick={RemoveExtraSpaces}>Remove Extra Spaces</button>
       {/* <button className="btn btn-primary mx-1" onClick={handleItalicClick}>Convert to Italic</button> */}
     </div>
     <div className="container my-3" style={{color: props.mode==='light'?'#042743':'white'}}>
